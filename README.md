@@ -24,7 +24,7 @@ poetry run python main.py
 ## Docker
 
 You can also run the tool in Docker with the pre-built containers
-at [ghcr.io/lietu/pytarpit](https://ghcr.io/lietu/pytarpit).
+at [ghcr.io/lietu/pytarpit](https://ghcr.io/lietu/pytarpit). Supporting both linux/amd64 and linux/arm64 platforms.
 
 ```shell
 docker run -p 10080:10080 -p 10022:10022 ghcr.io/lietu/pytarpit
